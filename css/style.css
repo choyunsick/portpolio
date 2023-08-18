@@ -1,3 +1,39 @@
-
+header {
+  width: 100%;
+}
+header .inner {
+  width: 1180px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+}
+header .inner h1 {
+  position: absolute;
+  left: 40%;
+  bottom: 10px;
+  font-size: 60px;
+  color: yellowgreen;
+}
+header .inner .menu #main {
+  position: absolute;
+  right: 150px;
+  bottom: 0;
+}
+header .inner .menu #main li {
+  float: right;
+}
+header .inner .menu #main li a {
+  font: bold 20px/1 "arial";
+  color: #444;
+  margin-right: 55px;
+  display: block;
+  padding: 14px 30px;
+  font: bold 18px/1 "arial";
+  color: #777;
+}
+header .inner .menu #main li:hover {
+  background-color: skyblue;
+  color: #000;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+header {
+    width: 100%;
+
+    .inner{
+        width: 1180px;
+        height: 120px;
+        margin: 0 auto;
+        position: relative;  
+
+        h1{
+            position: absolute;
+            left: 40%;
+            bottom: 10px;
+            font-size: 60px;
+            color: yellowgreen;
+
+          
+        }
+        .menu #main{
+            position: absolute;
+            right: 150px;
+            bottom: 0;
+
+            li{
+                float: right;
+
+                a{
+                    font: bold 20px/1 "arial";
+                    color: #444;
+                    margin-right: 55px;                
+                    display: block;
+                    padding: 14px 30px;
+                    font: bold 18px/1 "arial";
+                    color: #777;
+                }
+                    &:hover{
+                        background-color: skyblue;
+                        color: #000;
+                    
+                
+               }
+            }
+        }
+    }
+}            
